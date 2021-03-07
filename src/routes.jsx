@@ -8,6 +8,8 @@ function Routes(){
         <BrowserRouter>
             <Switch>
                 <Route path="/" exact component={Dashboard} />
+                <Route path="/profile" exact component={Dashboard} />
+                <Route path="/config" exact component={Dashboard} />
             </Switch>
         </BrowserRouter>
     )
