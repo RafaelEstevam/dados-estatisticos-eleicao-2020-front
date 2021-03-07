@@ -38,6 +38,8 @@ function LoginView(){
     const [dataModal, setDataModal] = useState('');
     const [showLoading, setShowLoading] = useState(false);
 
+    console.log(window.location.href);
+
     const handleClose = () => setShow(false);
 
     const handleShow = (data) => {
